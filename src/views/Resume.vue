@@ -113,6 +113,11 @@ h1 {
   color: blue;
 }
 
+h4 {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+}
+
 .lc a,
 .younglings a,
 .capaciti a {

@@ -2,7 +2,11 @@
   <div class="home container-fluid">
     <div class="row">
       <div class="col mt-5 img-col">
-        <img src="../assets/Sabelo.png" class="w-50 rounded img-fluid" alt="" />
+        <img
+          src="https://i.postimg.cc/BnTmZZR3/Sabelo.png"
+          class="w-50 rounded img-fluid"
+          alt=""
+        />
       </div>
       <div class="col mt-5 info-col">
         <h1>Sabelo Selby Mdashe_</h1>
@@ -59,7 +63,7 @@ export default {};
   background-size: cover;
   height: 88vh;
   font-family: "Abhaya Libre", serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 h1 {

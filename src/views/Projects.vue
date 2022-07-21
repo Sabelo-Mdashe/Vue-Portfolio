@@ -10,17 +10,16 @@
         ><i class="fa-solid fa-circle-dot dot-icon-red"></i> Incomplete</span
       >
     </div>
-    <ProjectCard />
+
+    <projectCard />
   </div>
 </template>
 <script>
 import projectCard from "../components/projectCard.vue";
-import ProjectCard from "../components/projectCard.vue";
 
 export default {
   components: {
     projectCard,
-    ProjectCard,
   },
 };
 </script>

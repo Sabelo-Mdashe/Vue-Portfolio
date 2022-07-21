@@ -2,10 +2,10 @@
   <div class="about container">
     <h1 class="mt-3">Hello World_</h1>
     <div class="row mt-5">
-      <div class="col shadow-lg">
+      <div class="col shadow-lg col-img rounded">
         <img
-          src="../assets/Selby.jpg"
-          class="rounded img-selby mt-3 img-fluid"
+          src="https://i.postimg.cc/QtQ80TyP/Selby.jpg"
+          class="rounded img-selby img-fluid"
           alt=""
         />
       </div>
@@ -24,7 +24,7 @@
           and engaging on real life projects.
         </p>
 
-        <h4 class="mt-5 mb-3">Technical Skills</h4>
+        <h4 class="mt-5 mb-4">Technical Skills</h4>
         <Table />
       </div>
     </div>
@@ -44,7 +44,7 @@ export default {
 <style>
 .about {
   font-family: "Abhaya Libre", serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 h1 {
@@ -54,10 +54,17 @@ h1 {
 
 h4 {
   font-family: "Cinzel", serif;
+  font-weight: bold;
 }
 
 .col-text {
   text-align: center;
+}
+
+.col-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -65,6 +72,6 @@ p {
 }
 
 .img-selby {
-  height: 450px;
+  height: 400px;
 }
 </style>

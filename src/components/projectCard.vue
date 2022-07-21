@@ -2,17 +2,17 @@
   <div class="cards mb-5">
     <div
       class="d-grid gap-4 card"
-      v-for="project in projects"
+      v-for="(project, index) in projects"
       :key="project.id"
     >
       <!-- PROJECTS CARDS -->
       <div
-        class="row projects bg-light border hover-shadow btn btn-primary"
+        class="row projects bg-light btn btn-primary"
         type="button"
         data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
+        :data-bs-target="'#exampleModal' + (index + 1)"
       >
-        <div class="d-flex gap-3">
+        <div class="d-flex gap-4">
           <img
             :src="project.imageURL"
             alt=""
@@ -35,7 +35,7 @@
         <!-- Modal -->
         <div
           class="modal fade"
-          id="exampleModal"
+          :id="'exampleModal' + (index + 1)"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
@@ -88,8 +88,7 @@ export default {
         {
           id: 1,
           title: "Mock Portfolio",
-          imageURL:
-            "https://stirring-daffodil-11a73e.netlify.app/Images/mock_portfolio.png",
+          imageURL: "https://i.postimg.cc/BnpvGHZG/mock-portfolio.png",
           briefing:
             "This project I was given to test my abilities to use basic HTML and CSS to build my first ever digital portfolio.",
           description:
@@ -102,8 +101,7 @@ export default {
         {
           id: 2,
           title: "Personal Portfolio",
-          imageURL:
-            "https://stirring-daffodil-11a73e.netlify.app/Images/portfolio.png",
+          imageURL: "https://i.postimg.cc/L4L0XVcL/portfolio.png",
           briefing:
             "This is my personal professional portfolio I developed by myself. This was created by using a combination of HTML, CSS and Bootstrap.",
           description:
@@ -116,8 +114,7 @@ export default {
         {
           id: 3,
           title: "Calculator",
-          imageURL:
-            "https://stirring-daffodil-11a73e.netlify.app/Images/calculator.png",
+          imageURL: "https://i.postimg.cc/HnmGxv3v/calculator.png",
           briefing:
             "In this project I used a combination of HTML, CSS and JavaScript to build a simple functioning online calculator.",
           description:
@@ -130,8 +127,7 @@ export default {
         {
           id: 4,
           title: "BMI Calculator",
-          imageURL:
-            "https://stirring-daffodil-11a73e.netlify.app/Images/bmi_calc.png",
+          imageURL: "https://i.postimg.cc/D0wgBqzy/bmi-calc.png",
           briefing:
             "For this project I used a combination of HTML, CSS and JavaScript to build a Body Mass Index (BMI) calculator.",
           description:
@@ -144,8 +140,7 @@ export default {
         {
           id: 5,
           title: "Temperature Convertor",
-          imageURL:
-            "https://stirring-daffodil-11a73e.netlify.app/Images/temp_convertor.png",
+          imageURL: "https://i.postimg.cc/tgmWpLRy/temp-convertor.png",
           briefing:
             "For this project I used a combination of HTML, CSS, Bootstrap and JavaScript to build a temperature convertor.",
           description:
@@ -154,6 +149,19 @@ export default {
           github: "https://github.com/Sabelo-Mdashe/BMI-calculator",
           technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
           complete: true,
+        },
+        {
+          id: 6,
+          title: "Propertiez Real Estate",
+          imageURL: "https://i.postimg.cc/0QZc5jB3/properties.png",
+          briefing:
+            "This was a fake real estate agency website. The website is based on looking for houses/properties to buy or rent.",
+          description:
+            "This was a fake real estate agency website. The website is based on looking for houses/properties to buy or rent. The website has an admin page where an admin can add and delete properties.",
+          liveURL: "https://strong-pavlova-8b37e9.netlify.app/",
+          github: "https://github.com/Sabelo-Mdashe/Real-Estate",
+          technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+          complete: false,
         },
       ],
     };
@@ -164,18 +172,25 @@ export default {
 * {
   color: black;
 }
+
+p {
+  font-family: "Abhaya Libre", serif;
+  font-size: 1.2rem;
+  text-transform: none;
+}
 .cards {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
 
-.card:hover {
-  text-shadow: 50px;
-}
-
 .projects_imgs {
   width: 500px;
+}
+
+h4 {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
 }
 
 .col {
