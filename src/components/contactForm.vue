@@ -36,7 +36,7 @@
           </button>
         </form>
       </div>
-      <div class="col">
+      <div class="col col-find-me">
         <h4 class="mt-5 find-me">
           Find Me: <i class="fa-solid fa-location-dot"></i>
         </h4>
@@ -107,6 +107,10 @@ h4 {
   }
 
   .find-me {
+    display: none;
+  }
+
+  .col-find-me {
     display: none;
   }
 }

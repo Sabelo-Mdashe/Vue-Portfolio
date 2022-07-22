@@ -150,6 +150,11 @@ a > i,
     display: none;
   }
 
+  .home,
+  .row {
+    min-height: 100vh;
+  }
+
   .fields-info {
     gap: 0;
   }

@@ -52,7 +52,7 @@
 export default {};
 </script>
 <style>
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 412px) {
   .fixed-top {
     display: block;
     position: relative;

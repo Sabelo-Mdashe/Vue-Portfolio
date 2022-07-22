@@ -22,4 +22,10 @@ h1 {
   text-align: center;
   font-family: "Cinzel", serif;
 }
+
+@media screen and (max-width: 412px) {
+  .mt-3 {
+    margin-top: 0 !important;
+  }
+}
 </style>
