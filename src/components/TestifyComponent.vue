@@ -120,9 +120,11 @@ export default {
           imgURL: "https://i.postimg.cc/P5yrSZj7/siyolise.jpg",
         },
         {
-          name: "Jason",
+          name: "Jason Wandrag",
+          title: "Lecturer",
           message:
             "Sabelo shows a lot of promise as a developer. I love the effort he puts forth whenever he participates in the classroom. It's a pleasure watching him co-operate with his peers. He seems to learn quickly from the corrections made to his coding work, as long as he pays attention to them. I am excited about Sabelo's potential and I can't wait to see how he will grow in the future",
+          imgURL: "https://i.postimg.cc/vT5BqD9L/jason.png",
         },
       ],
     };

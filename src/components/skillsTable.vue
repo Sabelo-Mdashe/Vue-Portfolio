@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="text-center">
-      <div class="row">
+      <div class="row d-flex skills-list">
         <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
           <i class="fa-brands fa-html5 fs-1 html-icon"></i>
           <h6 class="fw-normal mb-0">HTML</h6>
@@ -133,5 +133,22 @@ i {
 
 .vue-icon:hover {
   color: #428f68;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 415px) {
+  .skills-list {
+    flex-direction: row !important;
+    gap: 10px;
+  }
+
+  .mt-4 {
+    margin-top: 0 !important;
+  }
+
+  .position-relative {
+    width: auto;
+  }
 }
 </style>

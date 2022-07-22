@@ -4,7 +4,7 @@
   >
     <h1 class="mt-3">Hello World_</h1>
     <div class="row mt-5">
-      <div class="col shadow-lg col-img rounded">
+      <div class="col shadow-lg col-img rounded bg-dark">
         <img
           src="https://i.postimg.cc/QtQ80TyP/Selby.jpg"
           class="rounded img-selby img-fluid"
@@ -96,6 +96,10 @@ p {
 @media screen and (max-width: 912px) {
   .row {
     flex-direction: column;
+  }
+
+  .skills-list {
+    flex-direction: row;
   }
 
   h4 {

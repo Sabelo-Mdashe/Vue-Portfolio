@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="home container-fluid"
-  >
+  <div class="home container-fluid">
     <div class="row">
       <div class="col mt-5 img-col">
         <img
@@ -147,8 +145,16 @@ a > i,
 }
 
   */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 415px) {
   .img-fluid {
+    display: none;
+  }
+
+  .fields-info {
+    gap: 0;
+  }
+
+  .img-col {
     display: none;
   }
 }
