@@ -106,11 +106,6 @@
 export default {};
 </script>
 <style>
-table {
-  /* width: 100%; */
-  text-align: center;
-}
-
 i {
   color: blue;
 }

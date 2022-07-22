@@ -1,15 +1,6 @@
 <template>
   <div class="container projects">
-    <h1 class="mt-3">My Projects_</h1>
-    <div class="filter-links d-flex gap-5 mb-3">
-      <span class="all_projects">All</span>
-      <span class="green"
-        ><i class="fa-solid fa-circle-dot dot-icon-green"></i> Completed</span
-      >
-      <span class="red"
-        ><i class="fa-solid fa-circle-dot dot-icon-red"></i> Incomplete</span
-      >
-    </div>
+    <h1 class="mt-3 mb-5">My Projects_</h1>
 
     <projectCard />
   </div>

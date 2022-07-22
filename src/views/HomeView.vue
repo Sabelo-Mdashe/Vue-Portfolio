@@ -1,5 +1,7 @@
 <template>
-  <div class="home container-fluid">
+  <div
+    class="home container-fluid"
+  >
     <div class="row">
       <div class="col mt-5 img-col">
         <img
@@ -61,7 +63,7 @@ export default {};
 .home {
   background-image: url("https://i.pinimg.com/originals/a4/f1/95/a4f19586cb2ee8f3245bf72b9404346d.gif");
   background-size: cover;
-  height: 88vh;
+  height: 92vh;
   font-family: "Abhaya Libre", serif;
   font-size: 1.2rem;
 }
@@ -110,5 +112,44 @@ a > i,
   color: white;
   text-decoration: none;
   text-decoration-color: white;
+}
+
+/* MEDIA QUERIES */
+
+/* @media screen and (max-width: 1024px) {
+  .img-fluid {
+    height: 400px;
+  }
+
+  .home {
+    height: fit-content; */
+/* min-height: fit-content !important; */
+/* }
+} */
+
+/* @media screen and (max-width: 912px) {
+  .row {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .img-fluid {
+    height: auto;
+  }
+
+  .img-col {
+    justify-content: left;
+  }
+
+  .home {
+    font-size: 1.4rem;
+  }
+}
+
+  */
+@media screen and (max-width: 412px) {
+  .img-fluid {
+    display: none;
+  }
 }
 </style>

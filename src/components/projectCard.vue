@@ -12,7 +12,7 @@
         data-bs-toggle="modal"
         :data-bs-target="'#exampleModal' + (index + 1)"
       >
-        <div class="d-flex gap-4">
+        <div class="d-flex gap-4 card-query">
           <img
             :src="project.imageURL"
             alt=""
@@ -195,5 +195,23 @@ h4 {
 
 .col {
   text-align: left;
+}
+
+/* MEDIA QUERTIES */
+
+@media screen and (max-width: 1024px) {
+  .card-query {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h4 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .technologies {
+    margin-top: 0 !important;
+  }
 }
 </style>

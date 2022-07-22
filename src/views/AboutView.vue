@@ -24,7 +24,7 @@
           and engaging on real life projects.
         </p>
 
-        <h4 class="mt-5 mb-4">Technical Skills</h4>
+        <h4 class="mt-5 mb-4 skills">Technical Skills</h4>
         <Table />
       </div>
     </div>
@@ -73,5 +73,45 @@ p {
 
 .img-selby {
   height: 400px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .col-img {
+    align-items: flex-start;
+    box-shadow: none !important;
+  }
+
+  .skills {
+    margin-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .row {
+    flex-direction: column;
+  }
+
+  h4 {
+    margin-top: 30px;
+  }
+
+  .about {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .shadow-lg {
+    box-shadow: none !important;
+  }
+
+  .col {
+    justify-content: left;
+  }
+
+  .col-text {
+    text-align: left;
+  }
 }
 </style>

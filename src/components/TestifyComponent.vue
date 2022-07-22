@@ -143,6 +143,11 @@ export default {
   height: 500px;
 }
 
+p {
+
+text-align: center;
+}
+
 .carousel-caption > img {
   height: 300px;
 }
