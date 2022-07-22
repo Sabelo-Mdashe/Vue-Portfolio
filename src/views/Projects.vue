@@ -40,4 +40,16 @@ h1 {
 .all_projects {
   cursor: pointer;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 415px) {
+  .mt-3 {
+    margin-top: 0 !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 10px !important;
+  }
+}
 </style>
