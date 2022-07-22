@@ -77,6 +77,24 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <div class="cards">
+      <div
+        class="card"
+        style="width: 18rem"
+        v-for="testimonial in testimonials"
+        :key="testimonial.id"
+      >
+        <img :src="testimonial.imgURL" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title">{{ testimonial.name }}</h3>
+          <h6>{{ testimonial.title }}</h6>
+          <p class="card-text">
+            {{ testimonial.message }}
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -162,5 +180,24 @@ p {
 
 i {
   color: blue;
+}
+
+.cards {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 415px) {
+  .cards {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+
+  #carouselExampleCaptions {
+    display: none;
+  }
 }
 </style>
