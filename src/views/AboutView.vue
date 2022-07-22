@@ -1,5 +1,7 @@
 <template>
-  <div class="about container">
+  <div
+    class="about container container-sm container-md container-lg container-xl container-xxl"
+  >
     <h1 class="mt-3">Hello World_</h1>
     <div class="row mt-5">
       <div class="col shadow-lg col-img rounded">
@@ -28,15 +30,18 @@
         <Table />
       </div>
     </div>
+    <!-- <Footer /> -->
   </div>
 </template>
 
 <script>
 import Table from "../components/skillsTable.vue";
+import Footer from "../components/footer.vue";
 
 export default {
   components: {
     Table,
+    Footer,
   },
 };
 </script>

@@ -1,15 +1,18 @@
 <template>
   <h1 class="mt-3">Testimonials_</h1>
 
-  <div class="container d-flex gap-5">
+  <div class="container d-flex">
     <Testify />
+    <!-- <Footer /> -->
   </div>
 </template>
 <script>
 import Testify from "../components/TestifyComponent.vue";
+import Footer from "../components/footer.vue";
 export default {
   components: {
     Testify,
+    Footer,
   },
 };
 </script>

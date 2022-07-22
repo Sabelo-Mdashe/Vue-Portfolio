@@ -1,11 +1,28 @@
 <template>
-  <div id="contact">
-    <div class="row shadow-lg rounded">
+  <div id="contact" class="">
+    <div
+      class="row shadow-lg rounded container-sm container-md container-lg container-xl container-xxl mb-5"
+    >
       <div class="col">
-        <form class="mt-5 d-flex gap-3">
+        <form
+          class="mt-5 d-flex gap-3"
+          action="https://formspree.io/f/xbjwnawg"
+          method="POST"
+        >
           <h4>Send me a message:</h4>
-          <input type="text" placeholder="Name" class="rounded" />
-          <input type="email" placeholder="Email" class="rounded" required />
+          <input
+            type="text"
+            placeholder="Name"
+            class="rounded"
+            name="Client Name"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="rounded"
+            required
+            name="Email"
+          />
           <textarea
             name="message"
             id=""
@@ -14,7 +31,9 @@
             placeholder="How can I be of service?"
             class="rounded"
           ></textarea>
-          <button class="bg-primary rounded-pill submit">SEND</button>
+          <button class="bg-primary rounded-pill submit" type="submit">
+            SEND
+          </button>
         </form>
       </div>
       <div class="col">

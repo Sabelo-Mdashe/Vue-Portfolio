@@ -49,6 +49,7 @@ nav {
   text-align: center;
   font-family: "Abhaya Libre", serif;
   font-size: large;
+  width: 100%;
 }
 
 #navbarNav {
