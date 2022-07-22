@@ -123,4 +123,11 @@ p {
     text-align: left;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .mt-3,
+  .mt-5 {
+    margin-top: 0 !important ;
+  }
+}
 </style>

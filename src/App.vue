@@ -1,14 +1,18 @@
 <template>
   <Navbar />
+  <MobileNav />
   <router-view />
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
-import footer from "./components/footer.vue";
+import MobileNav from "./components/mobileNav.vue";
+
 export default {
   components: {
     Navbar,
+    MobileNav,
+    MobileNav,
   },
 };
 </script>
@@ -20,4 +24,6 @@ export default {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+
 </style>
