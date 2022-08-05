@@ -12,7 +12,7 @@
         />
       </div>
       <div class="col col-text">
-        <h4 class="mb-3">About Me</h4>
+        <h4 class="mb-2">About Me</h4>
         <p>
           I am a hard-working individual who is passionate about technology. My
           passion for technology started when my mother brought home a
@@ -26,7 +26,7 @@
           and engaging on real life projects.
         </p>
 
-        <h4 class="mt-5 mb-4 skills">Technical Skills</h4>
+        <h4 class="mt-3 mb-3 skills">Technical Skills</h4>
         <Table />
       </div>
     </div>

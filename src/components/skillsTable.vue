@@ -63,6 +63,12 @@
 
           <h6 class="fw-normal mb-0">MySQL</h6>
         </div>
+
+        <div class="col-lg-3 col-md-6 mb-5 mt-4 mb-md-0 position-relative">
+          <i class="fa-brands fa-node-js fs-1 node-icon"></i>
+
+          <h6 class="fw-normal mb-0">Node.js</h6>
+        </div>
       </div>
     </section>
   </div>
@@ -100,6 +106,9 @@ i {
   color: #428f68;
 }
 
+.node-icon:hover {
+  color: green;
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 415px) {
@@ -114,6 +123,11 @@ i {
 
   .position-relative {
     width: auto;
+  }
+
+  .github-icon:hover,
+  .database-icon:hover {
+    color: white;
   }
 }
 </style>
