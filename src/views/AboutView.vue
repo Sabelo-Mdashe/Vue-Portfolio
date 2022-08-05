@@ -46,7 +46,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .about {
   font-family: "Abhaya Libre", serif;
   font-size: 1.1rem;
@@ -121,6 +121,34 @@ p {
 
   .col-text {
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .col-img {
+    display: none;
+  }
+
+  .row {
+    margin-top: 0 !important;
+  }
+
+  .about {
+    background-color: black;
+    color: white;
+  }
+
+  .mt-3 {
+    margin-top: 0 !important;
+    padding-top: 40px;
+  }
+
+  h1 {
+    color: #f9f871;
+  }
+
+  h4 {
+    color: #ffc75f;
   }
 }
 

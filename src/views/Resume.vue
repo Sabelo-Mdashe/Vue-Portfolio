@@ -9,7 +9,7 @@
         </div>
         <div class="lc">
           <a href="https://www.lifechoices.co.za/" target="_blank"
-            >Life Choices Academy</a
+            ><i class="fa-solid fa-briefcase"></i> Life Choices Academy</a
           >
 
           <p>Intern</p>
@@ -25,7 +25,7 @@
         </div>
         <div class="younglings mt-5">
           <a href="https://www.younglings.capetown/" target="_blank"
-            >Younglings Africa (ABSA)</a
+            ><i class="fa-solid fa-briefcase"></i> Younglings Africa (ABSA)</a
           >
 
           <p>Intern</p>
@@ -41,7 +41,8 @@
         </div>
         <div class="capaciti mt-5">
           <a href="https://www.citi.org.za/" target="_blank"
-            >CapaCiTi - Cape Innovation & Technology Initiative</a
+            ><i class="fa-solid fa-briefcase"></i> CapaCiTi - Cape Innovation &
+            Technology Initiative</a
           >
 
           <p>Intern</p>
@@ -67,7 +68,10 @@
           <h4 class="border-bottom">Education</h4>
         </div>
         <div>
-          <span class="coct">Collage of Cape Town</span>
+          <span class="coct"
+            ><i class="fa-solid fa-user-graduate"></i> Collage of Cape
+            Town</span
+          >
           <p>National Certificate (Vocational) Computer Sciences/I.T</p>
           <p class="period">01/2017 - 12/2019</p>
           <p class="location">Crawford Campus</p>
@@ -131,5 +135,37 @@ button:hover {
 
 .heading {
   text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 415px) {
+  .row {
+    margin-top: 0 !important;
+    display: block;
+  }
+
+  .resume {
+    background-color: black !important;
+    color: white;
+  }
+
+  .mt-3 {
+    margin-top: 0 !important;
+    padding-top: 40px;
+  }
+
+  h1 {
+    color: #f9f871;
+  }
+
+  h4 {
+    color: #ffc75f;
+  }
+
+  .heading {
+    text-align: left;
+    margin-top: 40px;
+  }
 }
 </style>

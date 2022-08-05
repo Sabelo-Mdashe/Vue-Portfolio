@@ -56,6 +56,7 @@ export default {};
   .fixed-top {
     display: block;
     position: relative;
+    background-color: black;
   }
 
   .desktop-navbar {
