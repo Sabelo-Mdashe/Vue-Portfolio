@@ -56,11 +56,14 @@
             <li>Presentations</li>
             <li>Problem solving</li>
           </ul>
-          <!-- <a href="../assets/Documents/cv.pdf" download>
+          <a
+            href="https://drive.google.com/file/d/1nmnnhKWddK0OxaPUcIbZptSoYc1rlM0a/view?usp=sharing" target="_blank"
+            download
+          >
             <button type="button" class="btn btn-dark rounded-pill mb-3 mt-3">
               DOWNLOAD CV
             </button>
-          </a> -->
+          </a>
         </div>
       </div>
       <div class="col">
@@ -85,11 +88,14 @@
             <li>Mathematical Literacy</li>
             <li>Life Orientation Skills / Computer Skills</li>
           </ul>
-          <!-- <a href="../assets/Documents/S MDASHE MATRIC.pdf" download>
+          <a
+            href="https://drive.google.com/file/d/1TJf8sCe2wohy9cGOM-FvytlTG3PRmrvw/view?usp=sharing" target="_blank"
+            download
+          >
             <button type="button" class="btn btn-dark rounded-pill mb-3 mt-3">
               DOWNLOAD CERTIFICATE
             </button>
-          </a> -->
+          </a>
         </div>
       </div>
     </div>
