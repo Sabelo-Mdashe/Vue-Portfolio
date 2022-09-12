@@ -42,7 +42,7 @@
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="5"
-          aria-label="Slide 6"
+          aria-label="Slide 1"
         ></button>
       </div>
       <div class="carousel-inner bg-dark">
