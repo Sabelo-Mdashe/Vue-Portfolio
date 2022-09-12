@@ -145,8 +145,8 @@ export default {
             "For this project I used a combination of HTML, CSS, Bootstrap and JavaScript to build a temperature convertor.",
           description:
             "This is a side project of a temperature convertor. I built this convertor using technologies like HTML, CSS and Bootstrap for styling and JavaScript for functionality. This is to basially convert temperature from Celcious to Ferenheight and vice versa.",
-          liveURL: "https://majestic-churros-43c61c.netlify.app/",
-          github: "https://github.com/Sabelo-Mdashe/BMI-calculator",
+          liveURL: "https://splendorous-sherbet-ab47a7.netlify.app/",
+          github: "https://github.com/Sabelo-Mdashe/temperature-convertor",
           technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
           complete: true,
         },
@@ -161,6 +161,32 @@ export default {
           liveURL: "https://strong-pavlova-8b37e9.netlify.app/",
           github: "https://github.com/Sabelo-Mdashe/Real-Estate",
           technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+          complete: false,
+        },
+        {
+          id: 7,
+          title: "Cole World",
+          imageURL: "https://i.postimg.cc/s1d3Ljyw/coleworld.png",
+          briefing:
+            "This was a full stack project built with both Node.js and Vue.js. It is a frontend and backend web application",
+          description:
+            "This was a project for two members, one member of the pair was responsible for building the backend of the application and another for the frontend. I worked on the frontend of the project and my parter worked on the backend to build a REST API",
+          liveURL: "https://coleworld.herokuapp.com/index.html",
+          github: "https://github.com/RicardoRonan/ColeWorld2.0",
+          technologies: ["Vue.js", "CSS", "Bootstrap", "Node.js"],
+          complete: false,
+        },
+        {
+          id: 8,
+          title: "CAPSTONE Project",
+          imageURL: "https://i.postimg.cc/mrkYs5kf/capstone.png",
+          briefing:
+            "This is the final project of the course. It's full stack project built with both Node.js and Vue.js. It is a frontend and backend web application",
+          description:
+            "We were tasked to build a full stack project for our final project of the course. I built an e-commerce store for people who enjoy movies to visit and purchase their favourite movies. Part of this project was to build a backend REST API for the store. This is the GitHub link for the API: https://github.com/Sabelo-Mdashe/CAPSTONE-backendAPI",
+          liveURL: "https://sweet-yeot-54cead.netlify.app/",
+          github: "https://github.com/Sabelo-Mdashe/CAPSTONE-frontend",
+          technologies: ["Vue.js", "CSS", "Bootstrap", "Node.js"],
           complete: false,
         },
       ],
