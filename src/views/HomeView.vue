@@ -163,4 +163,11 @@ a > i,
     display: none;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .home {
+    background-image: none;
+    background-color: black;
+  }
+}
 </style>
