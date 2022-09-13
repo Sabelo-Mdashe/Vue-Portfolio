@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col mt-5 img-col">
         <img
-          src="https://i.postimg.cc/BnTmZZR3/Sabelo.png"
+          src="https://i.postimg.cc/RFNd6CPT/Sabelo-2-min.jpg"
           class="w-50 rounded img-fluid"
           alt=""
         />

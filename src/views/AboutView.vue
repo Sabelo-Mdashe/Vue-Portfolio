@@ -6,7 +6,7 @@
     <div class="row mt-5">
       <div class="col shadow-lg col-img rounded bg-dark">
         <img
-          src="https://i.postimg.cc/QtQ80TyP/Selby.jpg"
+          src="https://i.postimg.cc/V6stdzRk/Selby-min.jpg"
           class="rounded img-selby img-fluid"
           alt=""
         />
