@@ -45,7 +45,7 @@
           aria-label="Slide 1"
         ></button>
       </div>
-      <div class="carousel-inner bg-dark">
+      <div class="carousel-inner">
         <div
           class="carousel-item mt-3"
           v-for="(testimonial, index) in testimonials"

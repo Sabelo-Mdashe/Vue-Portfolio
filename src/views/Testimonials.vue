@@ -1,9 +1,12 @@
 <template>
-  <h1 class="mt-3">Testimonials_</h1>
+  <div class="container-fluid testimonials pt-3 pb-5">
 
-  <div class="container d-flex">
-    <Testify />
-    <!-- <Footer /> -->
+    <h1>Testimonials_</h1>
+  
+    <div class="container d-flex">
+      <Testify />
+      <!-- <Footer /> -->
+    </div>
   </div>
 </template>
 <script>
@@ -20,6 +23,15 @@ export default {
 h1 {
   text-align: center;
   font-family: "Cinzel", serif;
+}
+
+.container-fluid {
+  background-color: black;
+  color: white;
+}
+
+.testimonials {
+  height: 92vh;
 }
 
 .container {
