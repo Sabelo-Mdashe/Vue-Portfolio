@@ -13,13 +13,13 @@
           <input
             type="text"
             placeholder="Name"
-            class="rounded"
+            class="rounded form-control"
             name="Client Name"
           />
           <input
             type="email"
             placeholder="Email"
-            class="rounded"
+            class="rounded form-control"
             required
             name="Email"
           />
@@ -29,7 +29,7 @@
             cols="30"
             rows="5"
             placeholder="How can I be of service?"
-            class="rounded"
+            class="rounded form-control"
           ></textarea>
           <button class="bg-primary rounded-pill submit" type="submit">
             SEND
@@ -68,6 +68,16 @@ form {
 #contact {
   font-size: 1.2rem;
   font-family: "Abhaya Libre", serif;
+}
+
+form .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #434a52;
+  /* border-radius: 0; */
+  box-shadow: none;
+  outline: none;
+  color: inherit;
 }
 
 button,
