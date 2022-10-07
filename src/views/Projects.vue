@@ -1,9 +1,11 @@
 <template>
+  <div class="container-fluid pt-3">
   <div class="container projects">
-    <h1 class="mt-3 mb-5">My Projects_</h1>
+    <h1 class="mb-5">My Projects_</h1>
 
     <projectCard />
   </div>
+</div>
 </template>
 <script>
 import projectCard from "../components/projectCard.vue";
@@ -14,10 +16,15 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
+.container-fluid {
+  background-color: black;
+}
+
 .projects {
   font-family: "Abhaya Libre", serif;
   font-size: 1.2rem;
+  color: white;
 }
 
 h1 {

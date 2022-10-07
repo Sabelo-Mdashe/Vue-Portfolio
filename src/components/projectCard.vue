@@ -1,13 +1,13 @@
 <template>
-  <div class="cards mb-5">
-    <div
+
+    <!-- <div
       class="d-grid gap-4 card"
       v-for="(project, index) in projects"
       :key="project.id"
-    >
+    > -->
       <!-- PROJECTS CARDS -->
-      <div
-        class="row projects bg-light btn btn-primary"
+      <!-- <div
+        class="row projects btn btn-primary"
         type="button"
         data-bs-toggle="modal"
         :data-bs-target="'#exampleModal' + (index + 1)"
@@ -31,9 +31,9 @@
               <p class="tech">{{ project.technologies[3] }}</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Modal -->
-        <div
+        <!-- <div
           class="modal fade"
           :id="'exampleModal' + (index + 1)"
           tabindex="-1"
@@ -61,7 +61,7 @@
                   </p>
                 </div>
                 <div class="d-flex justify-content-around">
-                  <a :href="project.liveURL" target="_blank"
+                  <a 
                     ><button type="button" class="btn btn-success">
                       Live
                     </button></a
@@ -77,8 +77,26 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </div> -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app"
+      v-for="(project, index) in projects"
+      :key="project.id">
+            <div class="portfolio-wrap">
+              <img :src="project.imageURL" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a  :href="project.liveURL" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a  :href="project.github" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
 </template>
 <script>
 export default {
@@ -195,49 +213,100 @@ export default {
 };
 </script>
 <style scoped>
-* {
-  color: black;
-}
-
-p {
-  font-family: "Abhaya Libre", serif;
-  font-size: 1.2rem;
-  text-transform: none;
-}
-.cards {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.projects_imgs {
-  width: 500px;
-}
-
 h4 {
   font-family: "Cinzel", serif;
   font-weight: bold;
 }
-
-.col {
-  text-align: left;
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio-item {
+  margin-bottom: 30px;
 }
+
+.portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.portfolio-wrap::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+i {
+  color: white;
+}
+
+.portfolio-wrap .portfolio-links {
+  opacity: 1;
+  left: 0;
+  right: 0;
+  bottom: -60px;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-wrap .portfolio-links a {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  /* background: rgba(20, 157, 221, 0.75); */
+  transition: 0.3s;
+  width: 50%;
+}
+
+.portfolio-wrap .portfolio-links a:hover {
+  background: rgba(0, 0, 0, 0.95);
+  cursor: pointer;
+}
+
+.portfolio-wrap .portfolio-links a+a {
+  border-left: 1px solid #f5fbfe;
+}
+
+.portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.portfolio-wrap:hover .portfolio-links {
+  opacity: 1;
+  bottom: 0;
+}
+
 
 /* MEDIA QUERTIES */
 
 @media screen and (max-width: 1024px) {
-  .card-query {
+  /* .card-query {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   h4 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
 
-  .technologies {
+  /* .technologies {
     margin-top: 0 !important;
-  }
+  } */
 }
 </style>

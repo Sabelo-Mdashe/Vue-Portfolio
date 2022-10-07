@@ -1,10 +1,11 @@
 <template>
+  <div class="container-fluid">
   <div
-    class="about container container-sm container-md container-lg container-xl container-xxl"
+    class="about container container-sm container-md container-lg container-xl container-xxl pt-3"
   >
-    <h1 class="mt-3">Hello World_</h1>
+    <h1>Hello World_</h1>
     <div class="row mt-5">
-      <div class="col shadow-lg col-img rounded bg-dark">
+      <div class="col shadow-lg col-img rounded">
         <img
           src="https://i.postimg.cc/V6stdzRk/Selby-min.jpg"
           class="rounded img-selby img-fluid"
@@ -32,6 +33,7 @@
     </div>
     <!-- <Footer /> -->
   </div>
+</div>
 </template>
 
 <script>
@@ -47,9 +49,15 @@ export default {
 </script>
 
 <style scoped>
+.container-fluid {
+  background-color: black;
+}
+
 .about {
   font-family: "Abhaya Libre", serif;
   font-size: 1.1rem;
+  height: 92vh;
+  color: white;
 }
 
 h1 {

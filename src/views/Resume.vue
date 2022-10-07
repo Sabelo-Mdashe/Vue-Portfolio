@@ -1,6 +1,7 @@
 <template>
-  <div class="resume container bg-light">
-    <h1 class="mt-3">Resume_</h1>
+  <div class="container-fluid pt-3">
+  <div class="resume container">
+    <h1>Resume_</h1>
 
     <div class="row mt-5">
       <div class="col">
@@ -102,11 +103,16 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 <script>
 export default {};
 </script>
 <style scoped>
+.container-fluid {
+  background-color: black;
+}
+
 h1 {
   text-align: center;
   font-family: "Cinzel", serif;
@@ -114,6 +120,7 @@ h1 {
 .resume {
   font-family: "Abhaya Libre", serif;
   font-size: 1.2rem;
+  color: white;
 }
 
 .location {

@@ -99,7 +99,7 @@ i {
 
 .github-icon:hover,
 .database-icon:hover {
-  color: black;
+  color: white;
 }
 
 .vue-icon:hover {
