@@ -1,10 +1,12 @@
 <template>
-  <div
-    class="container container-sm container-md container-lg container-xl container-xxl"
-  >
-    <h1 class="mt-3 mb-4">Contact Me_</h1>
-    <contactForm />
-    <Footer />
+  <div class="container-fluid pt-3">
+    <div
+      class="container container-sm container-md container-lg container-xl container-xxl"
+    >
+      <h1>Contact Me_</h1>
+      <contactForm />
+      <Footer />
+    </div>
   </div>
 </template>
 <script>
@@ -18,6 +20,12 @@ export default {
 };
 </script>
 <style scoped>
+.container-fluid {
+  background-color: black;
+  min-height: 92vh;
+  color: white;
+}
+
 h1 {
   text-align: center;
   font-family: "Cinzel", serif;

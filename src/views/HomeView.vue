@@ -62,7 +62,7 @@ export default {};
   /* background-image: url("https://i.pinimg.com/originals/a4/f1/95/a4f19586cb2ee8f3245bf72b9404346d.gif");
   background-size: cover; */
   background-color: black;
-  height: 92vh;
+  min-height: 92vh;
   font-family: "Abhaya Libre", serif;
   font-size: 1.2rem;
 }

@@ -31,7 +31,7 @@ h1 {
 }
 
 .testimonials {
-  height: 92vh;
+  min-height: 92vh;
 }
 
 .container {
