@@ -89,7 +89,7 @@
             <div class="portfolio-wrap">
               <img :src="project.imageURL" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a  :href="project.liveURL" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a  :href="project.liveURL" target="_blank"><i class="fa fa-globe"></i></a>
                 <a  :href="project.github" target="_blank"><i class="fa-brands fa-github"></i></a>
               </div>
             </div>

@@ -165,5 +165,9 @@ p {
   .mt-5 {
     margin-top: 0 !important ;
   }
+
+  .about {
+    height: fit-content;
+  }
 }
 </style>
