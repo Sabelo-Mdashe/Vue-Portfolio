@@ -8,6 +8,74 @@
                     <div class="main-timeline4">
                         <div class="timeline">
                             <a href="#" class="timeline-content">
+                                <span class="year"><i style="color:#f54957" class="fa-solid fa-briefcase"></i></span>
+                                <div class="inner-content">
+                                    <h3 class="title"> LC Studios</h3>
+                                    <p>09/2022 - Current</p>
+                                    <p class="description">
+                                      <span style="color:#f54957">Intern</span> <br>
+                                        <span>Duties: Designing and developing Websites, 
+                                          Designing and developing Web Applications, 
+                                          Coding / Programming, 
+                                          Presentations, 
+                                        Upskilling</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="timeline">
+                            <a href="#" class="timeline-content">
+                                <span class="year"><i style="color:#1ebad0" class="fa-solid fa-code"></i></span>
+                                <div class="inner-content">
+                                    <h3 class="title"> Life Choices Coding Academy</h3>
+                                    <p>03/2022 - 09/2022</p>
+                                    <p class="description">
+                                      <span style="color:#1ebad0">Student</span> <br>
+                                        <span>Responsibilities: Designing and developing Websites, 
+                                          Designing and developing Web Applications, 
+                                          Coding / Programming, 
+                                          Presentations</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <a href="#" class="timeline-content">
+                                <span class="year"><i style="color:#7cba01" class="fa-solid fa-briefcase"></i></span>
+                                <div class="inner-content">
+                                    <h3 class="title">Younglings Africa (Absa)</h3>
+                                    <p>09/2020 - 03/2021</p>
+                                    <p class="description">
+                                      <span style="color:#7cba01">Intern</span> <br>
+                                      <span>Duties: Designing and developing Websites, 
+                                        Coding / Programming, 
+                                        Presentations, 
+                                        Problem Solving</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <a href="#" class="timeline-content">
+                                <span class="year"><i style="color:#f8781f" class="fa-solid fa-briefcase"></i></span>
+                                <div class="inner-content">
+                                    <h3 class="title">CapaCiTi - Cape Innovation & Technology Initiative</h3>
+                                    <p>03/2020 - 08/2020</p>
+                                    <p class="description">
+                                      <span style="color:#f8781f">Student</span> <br>
+                                      <span>Responsibilities: Designing and developing websites, 
+                                        Application development, 
+                                        Coding / Programming, 
+                                        Presentations, 
+                                        Problem solving</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="timeline">
+                            <a href="#" class="timeline-content">
                                 <span class="year"><i style="color:#f54957" class="fa-solid fa-user-graduate"></i></span>
                                 <div class="inner-content">
                                     <h3 class="title">Collage of Cape Town</h3>
@@ -25,164 +93,9 @@
                                 </div>
                             </a>
                         </div>
-
-                        <div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year"><i style="color:#1ebad0" class="fa-solid fa-briefcase"></i></span>
-                                <div class="inner-content">
-                                    <h3 class="title"> LC Studios</h3>
-                                    <p>09/2022 - Current</p>
-                                    <p class="description">
-                                      <span style="color:#1ebad0">Intern</span> <br>
-                                        <span>Duties: Designing and developing Websites, 
-                                          Designing and developing Web Applications, 
-                                          Coding / Programming, 
-                                          Presentations, 
-                                        Upskilling</span>
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year"><i style="color:#7cba01" class="fa-solid fa-code"></i></span>
-                                <div class="inner-content">
-                                    <h3 class="title"> Life Choices Coding Academy</h3>
-                                    <p>03/2022 - 09/2022</p>
-                                    <p class="description">
-                                      <span style="color:#7cba01">Student</span> <br>
-                                        <span>Responsibilities: Designing and developing Websites, 
-                                          Designing and developing Web Applications, 
-                                          Coding / Programming, 
-                                          Presentations</span>
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year"><i style="color:#f8781f" class="fa-solid fa-briefcase"></i></span>
-                                <div class="inner-content">
-                                    <h3 class="title">Younglings Africa (Absa)</h3>
-                                    <p>09/2020 - 03/2021</p>
-                                    <p class="description">
-                                      <span style="color:#f8781f">Intern</span> <br>
-                                      <span>Duties: Designing and developing Websites, 
-                                        Coding / Programming, 
-                                        Presentations, 
-                                        Problem Solving</span>
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year"><i style="color:#f54957" class="fa-solid fa-briefcase"></i></span>
-                                <div class="inner-content">
-                                    <h3 class="title">CapaCiTi - Cape Innovation & Technology Initiative</h3>
-                                    <p>03/2020 - 08/2020</p>
-                                    <p class="description">
-                                      <span style="color:#f54957">Student</span> <br>
-                                      <span>Responsibilities: Designing and developing websites, 
-                                        Application development, 
-                                        Coding / Programming, 
-                                        Presentations, 
-                                        Problem solving</span>
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
-
-
-    <!-- <div class="row mt-5">
-      <div class="col">
-        <div class="heading">
-          <h4 class="border-bottom">Work Experience</h4>
-        </div>
-        <div class="lc">
-          <a href="https://www.lifechoices.co.za/" target="_blank"
-            ></a
-          >
-
-          <p>Intern</p>
-          <p class="period"></p>
-          <p class="location">Lansdowne, Cape Town</p>
-          <p>Responsibilities:</p>
-          <ul>
-            <li>Designing and developing Websites</li>
-            <li>Designing and developing Web Applications</li>
-            <li>Coding / Programming</li>
-            <li>Presentations</li>
-          </ul>
-        </div>
-        <div class="younglings mt-5">
-          <a href="https://www.younglings.capetown/" target="_blank"
-            ><i class="fa-solid fa-briefcase"></i> Younglings Africa (ABSA)</a
-          >
-
-          <p>Intern</p>
-          <p class="period">09/2020 - 03/2021</p>
-          <p class="location">Long Street, Cape Town</p>
-          <p>Responsibilities:</p>
-          <ul>
-            <li>Designing and developing Websites</li>
-            <li>Coding / Programming</li>
-            <li>Presentations</li>
-            <li>Problem Solving</li>
-          </ul>
-        </div>
-        <div class="capaciti mt-5">
-          <a href="https://www.citi.org.za/" target="_blank"
-            ><i class="fa-solid fa-briefcase"></i> </a
-          >
-
-          <p>Intern</p>
-          <p class="period">03/2020 - 08/2020</p>
-          <p class="location">Woodstock Exchange</p>
-          <p>Resposibilities:</p>
-          <ul>
-          </ul>
-          <a
-            href="https://drive.google.com/file/d/1K7YODyah_fLuGvOybY5-phWvw6V_2gmv/view?usp=sharing"
-            target="_blank"
-            download
-          >
-            <button type="button" class="btn btn-dark rounded-pill mb-3 mt-3">
-              DOWNLOAD CV
-            </button>
-          </a>
-        </div>
-      </div>
-      <div class="col">
-        <div class="heading">
-          <h4 class="border-bottom">Education</h4>
-        </div>
-        <div>
-          <span class="coct"
-            ></i></span
-          >
-          <p class="period">01/2017 - 12/2019</p>
-          <p class="location">Crawford Campus</p>
-          <p>Subjects:</p>
-          <ul>
-   
-          </ul>
-          <a
-            href="https://drive.google.com/file/d/1TJf8sCe2wohy9cGOM-FvytlTG3PRmrvw/view?usp=sharing"
-            target="_blank"
-            download
-          >
-            <button type="button" class="btn btn-dark rounded-pill mb-3 mt-3">
-              DOWNLOAD CERTIFICATE
-            </button>
-          </a>
-        </div>
-      </div>
-    </div> -->
   </div>
 </div>
 </template>
