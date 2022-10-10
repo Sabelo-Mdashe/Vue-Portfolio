@@ -37,7 +37,7 @@
                                           Coding / Programming, 
                                           Presentations</span> <br>
                                           <a href="https://drive.google.com/file/d/1K7YODyah_fLuGvOybY5-phWvw6V_2gmv/view?usp=sharing" target="_blank">
-                                          <button class="rounded-pill p-1" style="background-color:#54d1e3">Download CV</button>
+                                          <button class="rounded-pill p-1 button-cv" style="background-color:#54d1e3">Download CV</button>
                                         </a>
                                     </p>
                                 </div>
@@ -93,7 +93,7 @@
                                         Mathematical Literacy, 
                                         Life Orientation Skills / Computer Skills</span> <br>
                                         <a href="https://drive.google.com/file/d/1TJf8sCe2wohy9cGOM-FvytlTG3PRmrvw/view?usp=sharing" target="_blank">
-                                          <button class="rounded-pill p-1" style="background-color:#f0868f">Download Certificate</button>
+                                          <button class="rounded-pill p-1 button-certificate" style="background-color:#f0868f">Download Certificate</button>
                                         </a>
                                     </p>
                                 </div>
@@ -111,6 +111,16 @@ export default {};
 <style scoped>
 .container-fluid {
   background-color: black;
+}
+
+.button-cv:hover {
+  background-color: black!important;
+  color: #1ebad0;
+}
+
+.button-certificate:hover {
+  background-color: black!important;
+  color: #f54957;
 }
 
 .main-timeline4{overflow:hidden;position:relative}
@@ -171,7 +181,6 @@ export default {};
 
 .main-timeline4 .inner-content{padding:10px}
 }
-
 
 h1 {
   text-align: center;

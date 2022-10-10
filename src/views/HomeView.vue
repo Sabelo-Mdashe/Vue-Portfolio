@@ -106,6 +106,10 @@ h4 {
   justify-content: center;
 }
 
+.linkedin-icon {
+  color: lightskyblue;
+}
+
 a > i,
 .email-link {
   color: white;

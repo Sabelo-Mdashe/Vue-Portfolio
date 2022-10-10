@@ -27,7 +27,7 @@
           and engaging on real life projects.
         </p>
 
-        <h4 class="mt-3 mb-3 skills">Technical Skills</h4>
+        <h4 class="mt-3 mb-3 skills">Tech Stack</h4>
         <Table />
       </div>
     </div>
