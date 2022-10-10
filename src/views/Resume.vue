@@ -7,7 +7,7 @@
                 <div class="col-md-12">
                     <div class="main-timeline4">
                         <div class="timeline">
-                            <a href="#" class="timeline-content">
+                            <div class="timeline-content">
                                 <span class="year"><i style="color:#f54957" class="fa-solid fa-briefcase"></i></span>
                                 <div class="inner-content">
                                     <h3 class="title"> LC Studios</h3>
@@ -21,11 +21,11 @@
                                         Upskilling</span>
                                     </p>
                                 </div>
-                            </a>
+                            </div>
                         </div>
 
                         <div class="timeline">
-                            <a href="#" class="timeline-content">
+                            <div class="timeline-content">
                                 <span class="year"><i style="color:#1ebad0" class="fa-solid fa-code"></i></span>
                                 <div class="inner-content">
                                     <h3 class="title"> Life Choices Coding Academy</h3>
@@ -35,13 +35,16 @@
                                         <span>Responsibilities: Designing and developing Websites, 
                                           Designing and developing Web Applications, 
                                           Coding / Programming, 
-                                          Presentations</span>
+                                          Presentations</span> <br>
+                                          <a href="https://drive.google.com/file/d/1K7YODyah_fLuGvOybY5-phWvw6V_2gmv/view?usp=sharing" target="_blank">
+                                          <button class="rounded-pill p-1" style="background-color:#54d1e3">Download CV</button>
+                                        </a>
                                     </p>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                         <div class="timeline">
-                            <a href="#" class="timeline-content">
+                            <div class="timeline-content">
                                 <span class="year"><i style="color:#7cba01" class="fa-solid fa-briefcase"></i></span>
                                 <div class="inner-content">
                                     <h3 class="title">Younglings Africa (Absa)</h3>
@@ -54,11 +57,11 @@
                                         Problem Solving</span>
                                     </p>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                         <div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year"><i style="color:#f8781f" class="fa-solid fa-briefcase"></i></span>
+                            <div class="timeline-content">
+                                <span class="year"><i style="color:#f8781f" class="fa-solid fa-code"></i></span>
                                 <div class="inner-content">
                                     <h3 class="title">CapaCiTi - Cape Innovation & Technology Initiative</h3>
                                     <p>03/2020 - 08/2020</p>
@@ -71,11 +74,11 @@
                                         Problem solving</span>
                                     </p>
                                 </div>
-                            </a>
+                            </div>
                         </div>
 
                         <div class="timeline">
-                            <a href="#" class="timeline-content">
+                            <div class="timeline-content">
                                 <span class="year"><i style="color:#f54957" class="fa-solid fa-user-graduate"></i></span>
                                 <div class="inner-content">
                                     <h3 class="title">Collage of Cape Town</h3>
@@ -88,10 +91,13 @@
                                         Office Data Processing, 
                                         English First Additional Language, 
                                         Mathematical Literacy, 
-                                        Life Orientation Skills / Computer Skills</span>
+                                        Life Orientation Skills / Computer Skills</span> <br>
+                                        <a href="https://drive.google.com/file/d/1TJf8sCe2wohy9cGOM-FvytlTG3PRmrvw/view?usp=sharing" target="_blank">
+                                          <button class="rounded-pill p-1" style="background-color:#f0868f">Download Certificate</button>
+                                        </a>
                                     </p>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
