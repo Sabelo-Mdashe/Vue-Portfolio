@@ -111,6 +111,8 @@ export default {};
 <style scoped>
 .container-fluid {
   background-color: black;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) ), url("https://wallpapersmug.com/download/3840x2400/2197f3/programming-code-colorful.jpg");
+background-size: cover; */
 }
 
 .button-cv:hover {

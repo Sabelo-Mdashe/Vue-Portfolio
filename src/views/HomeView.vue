@@ -59,10 +59,12 @@ export default {};
 
 <style scoped>
 .home {
+  background-color: black;
   /* background-image: url("https://i.pinimg.com/originals/a4/f1/95/a4f19586cb2ee8f3245bf72b9404346d.gif");
   background-size: cover; */
-  background-color: black;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) ), url("https://wallpapersmug.com/download/3840x2400/2197f3/programming-code-colorful.jpg"); */
   min-height: 92vh;
+  background-size: cover;
   font-family: "Abhaya Libre", serif;
   font-size: 1.2rem;
 }
@@ -106,7 +108,7 @@ h4 {
   justify-content: center;
 }
 
-.linkedin-icon {
+.linkedin-icon, .github-icon {
   color: lightskyblue;
 }
 

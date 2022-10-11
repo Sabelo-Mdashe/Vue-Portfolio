@@ -69,6 +69,12 @@
 
           <h6 class="fw-normal mb-0">Node.js</h6>
         </div>
+
+        <!-- <div class="col-lg-3 col-md-6 mb-5 mt-4 mb-md-0 position-relative">
+          <i class="fa-brands fa-aws fs-1"></i>
+
+          <h6 class="fw-normal mb-0">AWS</h6>
+        </div> -->
       </div>
     </section>
   </div>
@@ -85,7 +91,7 @@ i {
   color: orangered;
 }
 
-.js-icon:hover {
+.js-icon:hover, .fa-aws:hover {
   color: orange;
 }
 

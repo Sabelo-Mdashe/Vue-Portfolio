@@ -24,6 +24,8 @@ export default {
   background-color: black;
   min-height: 92vh;
   color: white;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) ), url("https://wallpapersmug.com/download/3840x2400/2197f3/programming-code-colorful.jpg");
+background-size: cover; */
 }
 
 h1 {
