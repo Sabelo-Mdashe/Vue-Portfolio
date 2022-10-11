@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div
+   <div
       id="carouselExampleCaptions"
       class="carousel slide mt-4"
       data-bs-ride="carousel"
@@ -83,24 +83,21 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+<div class="testi-cards gap-3 mt-3">
 
-    <div class="cards">
-      <div
-        class="card"
-        style="width: 18rem"
-        v-for="testimonial in testimonials"
-        :key="testimonial.id"
-      >
-        <img :src="testimonial.imgURL" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h3 class="card-title">{{ testimonial.name }}</h3>
-          <h6>{{ testimonial.title }}</h6>
-          <p class="card-text">
-            {{ testimonial.message }}
-          </p>
-        </div>
-      </div>
-    </div>
+  <div class="flip"
+  v-for="testimonial in testimonials"
+      :key="testimonial.id">
+  <div class="front">
+     <h1 class="text-shadow">{{testimonial.name}}</h1>
+     <img :src="testimonial.imgURL" class="testimonial-img" alt="">
+  </div>
+  <div class="back">
+     <h2>{{testimonial.title}}</h2>
+     <p>{{testimonial.message}}</p>
+  </div>
+</div>
+</div>
   </div>
 </template>
 <script>
@@ -156,6 +153,76 @@ export default {
 };
 </script>
 <style scoped>
+.flip {
+    position: relative;
+}
+
+.testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.testi-cards {
+  display: none;
+}
+   .flip >.front,
+   .flip >.back {
+        display: block;
+        transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+        transition-duration: .5s;
+        transition-property: transform, opacity;
+    }
+   .flip >.front {
+        transform: rotateY(0deg);
+    }
+   .flip >.back {
+        position: absolute;
+        opacity: 0;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        transform: rotateY(-180deg);
+    }
+  
+    .flip:hover > .front {
+            transform: rotateY(180deg);
+        }
+        .flip:hover >.back {
+            opacity: 1;
+            transform: rotateY(0deg);
+        }
+
+        .text-shadow {
+text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+}
+
+.flip {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 400px;
+}
+   .flip >.front,
+   .flip >.back {
+      display: block;
+      color: white;
+      width: inherit;
+      background-size: cover!important;
+      background-position: center!important;
+      height: 230px;
+      padding: 1em 2em;
+      background: #313131;
+      border-radius: 10px;
+}
+      p {
+        font-size: 0.9125rem;
+        line-height: 160%;
+        color: #999;
+      }
+
 .container-fluid {
   font-family: "Abhaya Libre", serif;
   font-size: 1.1rem;
@@ -188,22 +255,22 @@ i {
   color: blue;
 }
 
-.cards {
-  display: none;
-}
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 415px) {
-  .cards {
-    display: block;
+  .testi-cards {
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
+  justify-content: center;
   }
 
   #carouselExampleCaptions {
     display: none;
+  }
+
+  .flip {
+    width: 350px;
+    height: 250px;
   }
 }
 </style>
