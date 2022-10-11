@@ -10,7 +10,7 @@
       </div>
       <div class="col mt-5 info-col">
         <h1>Sabelo Selby Mdashe_</h1>
-        <h4>An Aspirant Full-Stack Developer</h4>
+        <h4>An Aspiring Full-Stack Developer</h4>
 
         <div class="mt-5 d-flex fields-info">
           <div class="fields field-labels gap-4">

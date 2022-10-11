@@ -14,7 +14,7 @@
                                     <p>09/2022 - Current</p>
                                     <p class="description">
                                       <span style="color:#f54957">Intern</span> <br>
-                                        <span>Duties: Designing and developing Websites, 
+                                        <span class="duties">Duties: Designing and developing Websites, 
                                           Designing and developing Web Applications, 
                                           Coding / Programming, 
                                           Presentations, 
@@ -32,7 +32,7 @@
                                     <p>03/2022 - 09/2022</p>
                                     <p class="description">
                                       <span style="color:#1ebad0">Student</span> <br>
-                                        <span>Responsibilities: Designing and developing Websites, 
+                                        <span class="duties">Responsibilities: Designing and developing Websites, 
                                           Designing and developing Web Applications, 
                                           Coding / Programming, 
                                           Presentations</span> <br>
@@ -51,7 +51,7 @@
                                     <p>09/2020 - 03/2021</p>
                                     <p class="description">
                                       <span style="color:#7cba01">Intern</span> <br>
-                                      <span>Duties: Designing and developing Websites, 
+                                      <span class="duties">Duties: Designing and developing Websites, 
                                         Coding / Programming, 
                                         Presentations, 
                                         Problem Solving</span>
@@ -67,7 +67,7 @@
                                     <p>03/2020 - 08/2020</p>
                                     <p class="description">
                                       <span style="color:#f8781f">Student</span> <br>
-                                      <span>Responsibilities: Designing and developing websites, 
+                                      <span class="duties">Responsibilities: Designing and developing websites, 
                                         Application development, 
                                         Coding / Programming, 
                                         Presentations, 
@@ -85,7 +85,7 @@
                                     <p>2017 -  2019</p>
                                     <p class="description">
                                       <span style="color:#f54957">National Certificate (Vocational) Computer Sciences/I.T</span> <br>
-                                      <span>Subjects: Computer Programming, 
+                                      <span class="duties">Subjects: Computer Programming, 
                                         Systems Analysis & Design, 
                                         Data Communications & Networking, 
                                         Office Data Processing, 
@@ -202,6 +202,10 @@ h1 {
 
 .coct {
   color: blue;
+}
+
+.duties {
+  font-size: 16px;
 }
 
 h4 {

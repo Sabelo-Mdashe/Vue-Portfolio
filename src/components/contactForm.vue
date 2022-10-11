@@ -65,6 +65,10 @@ form {
   width: 480px;
 }
 
+::placeholder {
+  font-size: 16px;
+}
+
 #contact {
   font-size: 1.2rem;
   font-family: "Abhaya Libre", serif;
