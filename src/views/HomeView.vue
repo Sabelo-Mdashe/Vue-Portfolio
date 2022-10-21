@@ -7,10 +7,15 @@
           class="w-50 rounded img-fluid"
           alt=""
         />
+        <img src="../assets/Sabelo_mobile.png" class="mobile_img" alt="">
       </div>
       <div class="col mt-5 info-col">
         <h1>Sabelo Selby Mdashe_</h1>
-        <h4>An Aspiring Full-Stack Developer</h4>
+        <!-- <div class="wrapper"> -->
+<div class="typing-demo">
+  <h4><span class="aspire">An</span> <span style="color: #7cba01;" class="aspire">Aspiring</span> Full-Stack Developer.</h4>
+</div>
+        <!-- </div> -->
 
         <div class="mt-5 d-flex fields-info">
           <div class="fields field-labels gap-4">
@@ -75,8 +80,13 @@ h1 {
   font-size: 4rem;
 }
 
+.mobile_img {
+   display: none;
+}
+
 h4 {
   font-family: "Cinzel", serif;
+  color: #1ebad0;
 }
 .info-col {
   color: white;
@@ -117,6 +127,35 @@ a > i,
   color: white;
   text-decoration: none;
   text-decoration-color: white;
+}
+
+.wrapper {
+  /* height: 100vh; */
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 21ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
 /* MEDIA QUERIES */
@@ -162,6 +201,10 @@ a > i,
     min-height: 100vh;
   }
 
+  h1 {
+    display: none;
+  }
+
   .fields-info {
     gap: 0;
   }
@@ -176,5 +219,30 @@ a > i,
     background-image: none;
     background-color: black;
   }
+  .aspire {
+    display: none;
+  }
+
+  .typing-demo {
+    width: 12ch;
+  }
+
+  .img-col {
+    display: block;
+  }
+
+  .mobile_img {
+   display: block;
+   width: 50%;
+   border-radius: 50%;
+}
+
+.info-col {
+  margin-top: 0!important;
+}
+
+.fields-info {
+  margin-top: 0!important;
+}
 }
 </style>
