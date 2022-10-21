@@ -11,11 +11,10 @@
       </div>
       <div class="col mt-5 info-col">
         <h1>Sabelo Selby Mdashe_</h1>
-        <!-- <div class="wrapper"> -->
+
 <div class="typing-demo">
   <h4><span class="aspire">An</span> <span style="color: #7cba01;" class="aspire">Aspiring</span> Full-Stack Developer.</h4>
 </div>
-        <!-- </div> -->
 
         <div class="mt-5 d-flex fields-info">
           <div class="fields field-labels gap-4">
