@@ -18,6 +18,7 @@
 
         <div class="mt-5 d-flex fields-info">
           <div class="fields field-labels gap-4">
+            <span class="name4mobile">NAME:</span>
             <span>AGE:</span>
             <span>PHONE:</span>
             <span>EMAIL:</span>
@@ -40,6 +41,7 @@
             </div>
           </div>
           <div class="fields gap-4">
+            <span class="name4mobile">Sabelo Selby Mdashe</span>
             <span>24</span>
             <span>081 360 3885</span>
             <span
@@ -81,6 +83,10 @@ h1 {
 
 .mobile_img {
    display: none;
+}
+
+.name4mobile {
+  display: none;
 }
 
 h4 {
@@ -211,6 +217,10 @@ a > i,
   .img-col {
     display: none;
   }
+
+  .name4mobile {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 376px) {
@@ -221,6 +231,10 @@ a > i,
   .aspire {
     display: none;
   }
+
+.icons > span > a > i {
+  display: none;
+}
 
   .typing-demo {
     width: 12ch;
@@ -239,6 +253,10 @@ a > i,
 .info-col {
   margin-top: 0!important;
 }
+
+.name4mobile {
+    display: block;
+  }
 
 .fields-info {
   margin-top: 0!important;
