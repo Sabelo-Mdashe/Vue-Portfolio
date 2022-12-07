@@ -70,6 +70,12 @@
           <h6 class="fw-normal mb-0">Node.js</h6>
         </div>
 
+        <div class="col-lg-3 col-md-6 mb-5 mt-4 mb-md-0 position-relative">
+          <i class="fa-brands fa-wordpress fs-1 wordpress-icon"></i>
+
+          <h6 class="fw-normal mb-0">Wordpress</h6>
+        </div>
+
         <!-- <div class="col-lg-3 col-md-6 mb-5 mt-4 mb-md-0 position-relative">
           <i class="fa-brands fa-aws fs-1"></i>
 
@@ -91,7 +97,8 @@ i {
   color: orangered;
 }
 
-.js-icon:hover, .fa-aws:hover {
+.js-icon:hover,
+.fa-aws:hover {
   color: orange;
 }
 
@@ -104,7 +111,8 @@ i {
 }
 
 .github-icon:hover,
-.database-icon:hover {
+.database-icon:hover,
+.wordpress-icon:hover {
   color: white;
 }
 

@@ -1,83 +1,4 @@
 <template>
-
-    <!-- <div
-      class="d-grid gap-4 card"
-      v-for="(project, index) in projects"
-      :key="project.id"
-    > -->
-      <!-- PROJECTS CARDS -->
-      <!-- <div
-        class="row projects btn btn-primary"
-        type="button"
-        data-bs-toggle="modal"
-        :data-bs-target="'#exampleModal' + (index + 1)"
-      >
-        <div class="d-flex gap-4 card-query">
-          <img
-            :src="project.imageURL"
-            alt=""
-            class="img-fluid projects_imgs rounded"
-          />
-          <div class="col">
-            <h4 class="mt-5 mb-5">{{ project.title }}</h4>
-            <p>
-              {{ project.briefing }}
-            </p>
-            <div class="technologies d-flex mt-5 gap-3">
-              <p>USED TECHNOLOGIES:</p>
-              <p class="tech">{{ project.technologies[0] }}</p>
-              <p class="tech">{{ project.technologies[1] }}</p>
-              <p class="tech">{{ project.technologies[2] }}</p>
-              <p class="tech">{{ project.technologies[3] }}</p>
-            </div>
-          </div>
-        </div> -->
-        <!-- Modal -->
-        <!-- <div
-          class="modal fade"
-          :id="'exampleModal' + (index + 1)"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">
-                  {{ project.title }}
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                <img :src="project.imageURL" alt="" class="img-fluid" />
-                <div class="pt-4 pb-4">
-                  <p>
-                    {{ project.description }}
-                  </p>
-                </div>
-                <div class="d-flex justify-content-around">
-                  <a 
-                    ><button type="button" class="btn btn-success">
-                      Live
-                    </button></a
-                  >
-                  <a :href="project.github" target="_blank"
-                    ><button type="button" class="btn btn-info">
-                      GitHub
-                    </button></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
       <div class="container">
@@ -205,6 +126,19 @@ export default {
           liveURL: "https://sweet-yeot-54cead.netlify.app/",
           github: "https://github.com/Sabelo-Mdashe/CAPSTONE-frontend",
           technologies: ["Vue.js", "CSS", "Bootstrap", "Node.js"],
+          complete: false,
+        },
+        {
+          id: 9,
+          title: "eCommerce",
+          imageURL: "https://i.postimg.cc/dtw6YHCM/RPG-Games.png",
+          briefing:
+            "This is the final project of the course. It's full stack project built with both Node.js and Vue.js. It is a frontend and backend web application",
+          description:
+            "We were tasked to build a full stack project for our final project of the course. I built an e-commerce store for people who enjoy movies to visit and purchase their favourite movies. Part of this project was to build a backend REST API for the store. This is the GitHub link for the API: https://github.com/Sabelo-Mdashe/CAPSTONE-backendAPI",
+          liveURL: "https://dev-ecommerce-game-store.pantheonsite.io/",
+          // github: "https://github.com/Sabelo-Mdashe/CAPSTONE-frontend",
+          technologies: ["Wordpress"],
           complete: false,
         },
       ],
