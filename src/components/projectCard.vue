@@ -68,7 +68,7 @@ export default {
           title: "BMI Calculator",
           imageURL: "https://i.postimg.cc/D0wgBqzy/bmi-calc.png",
           briefing:
-            "For this project I used a combination of HTML, CSS and JavaScript to build a Body Mass Index (BMI) calculator.",
+            "For this project I used a combination of HTML, CSS, Bootstrap and JavaScript to build a Body Mass Index (BMI) calculator.",
           description:
             "This is a side project of a simple BMI calculator. I built this calculator using technologies like HTML, CSS for styling, Bootstrap and JavaScript for functionality. It calculates your BMI and also returns your BMI classification.",
           liveURL: "https://majestic-churros-43c61c.netlify.app/",
@@ -94,7 +94,7 @@ export default {
           title: "Propertiez Real Estate",
           imageURL: "https://i.postimg.cc/0QZc5jB3/properties.png",
           briefing:
-            "This was a fake real estate agency website. The website is based on looking for houses/properties to buy or rent.",
+            "This was a fake real estate agency website. The website is based on looking for houses/properties to buy or rent. Here I also used HTML, CSS, Bootstrap and JavaScript.",
           description:
             "This was a fake real estate agency website. The website is based on looking for houses/properties to buy or rent. The website has an admin page where an admin can add and delete properties.",
           liveURL: "https://strong-pavlova-8b37e9.netlify.app/",
@@ -107,7 +107,7 @@ export default {
           title: "Cole World",
           imageURL: "https://i.postimg.cc/s1d3Ljyw/coleworld.png",
           briefing:
-            "This was a full stack project built with both Node.js and Vue.js. It is a frontend and backend web application",
+            "This was a full stack project built with both Node.js and Vue.js. It is a frontend and backend web application. CSS and Bootstrap were also used.",
           description:
             "This was a project for two members, one member of the pair was responsible for building the backend of the application and another for the frontend. I worked on the frontend of the project and my parter worked on the backend to build a REST API",
           liveURL: "https://coleworld.herokuapp.com/index.html",

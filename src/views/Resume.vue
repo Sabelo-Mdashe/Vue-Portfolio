@@ -81,7 +81,7 @@
                             <div class="timeline-content">
                                 <span class="year"><i style="color:#f54957" class="fa-solid fa-user-graduate"></i></span>
                                 <div class="inner-content">
-                                    <h3 class="title">Collage of Cape Town</h3>
+                                    <h3 class="title">College of Cape Town</h3>
                                     <p>2017 -  2019</p>
                                     <p class="description">
                                       <span style="color:#f54957">National Certificate (Vocational) Computer Sciences/I.T</span> <br>
